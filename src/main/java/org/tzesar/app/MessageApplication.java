@@ -1,11 +1,11 @@
 package org.tzesar.app;
 
+import org.tzesar.rest.MessageRestService;
+
 import java.util.HashSet;
 import java.util.Set;
 
 import javax.ws.rs.core.Application;
-
-import org.tzesar.rest.MessageRestService;
 
 public class MessageApplication extends Application {
 	private Set<Object> singletons = new HashSet<>();
